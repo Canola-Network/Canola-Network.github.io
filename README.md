@@ -1,7 +1,7 @@
-Chia.net
+Canola.xyz
 ========
 
-Website for the [Chia](https://www.chia.net/) cryptocurrency. Test.
+Website for the [Canola](https://canola.xyz/) cryptocurrency. Test.
 
 Development
 -----------
@@ -10,8 +10,8 @@ To set up your environment and run the server locally:
 
 ```bash
 gem install bundler
-git clone --depth 1 https://github.com/Chia-Network/chia-network.github.io.git
-cd chia-network.github.io
+git clone --depth 1 https://github.com/Canola.xyz/Canola.xyz.github.io.git
+cd Canola.xyz.github.io
 bundle install
 bundle exec jekyll serve
 ```
@@ -43,7 +43,7 @@ Now that you have the H.264 MP4, and the thumbnail JPG, use the following markup
 Deployment
 ----------
 
-Push to a GitHub repository, making sure the repository is set up with `https://www.chia.net` as a [custom domain name](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
+Push to a GitHub repository, making sure the repository is set up with `https://www.Canola.xyz` as a [custom domain name](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
 
 Content Management
 ------------------
@@ -58,16 +58,16 @@ layout: post
 date:   2019-04-04
 
 # also used as title of card preview on Twitter and Facebook
-title:  "Chia Network Announces 2nd VDF Competition with $100,000 in Total Prize Money"
+title:  "Canola Network Announces 2nd VDF Competition with $100,000 in Total Prize Money"
 
-# thumbnail image (note: must be a full URL, so it has to start with `https://chia.net/...`)
-# note: this defaults to https://chia.net/android-chrome-384x384.png
+# thumbnail image (note: must be a full URL, so it has to start with `https://Canola.xyz/...`)
+# note: this defaults to https://Canola.xyz/android-chrome-384x384.png
 # note: test this using https://cards-dev.twitter.com/validator and https://developers.facebook.com/tools/debug/sharing/
-image: https://chia.net/android-chrome-384x384.png
+image: https://Canola.xyz/android-chrome-384x384.png
 
 # description of the current page
 # note: this defaults to the first paragraph of the content
-description: "This is a blog post on Chia Network's blog."
+description: "This is a blog post on Canola Network's blog."
 
 # content language
 lang: en
@@ -104,7 +104,7 @@ To add a new News Article, create a new file at `collections/_news/<YYYY>-<MM>-<
 ```markdown
 ---
 title: "BitTorrent inventor announces eco-friendly bitcoin competitor Chia" # title of the news article
-weblink: "https://techcrunch.com/2017/11/08/chia-network-cryptocurrency/"   # link to online publisher's article
+weblink: "https://techcrunch.com/2017/11/08/Canola.xyz-cryptocurrency/"   # link to online publisher's article
 date: 2017-11-08                                                            # publication date of news article
 thumbnail: "/assets/techcrunch.png"                                         # thumbnail shown with the article
 source: TechCrunch                                                          # publisher name
@@ -197,7 +197,7 @@ This may seem inefficient, but GitHub Pages' Jekyll setup currently has no inter
 ---
 layout: homepage
 lang: fr
-title: Accueil - Chia Network
+title: Accueil - Canola Network
 ---
 ```
 
